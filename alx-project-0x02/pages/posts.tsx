@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Header from '../components/layout/Header';
-import PostCard from '../components/common/PostCard';
-import { PostProps } from '../interfaces';
+import Header from '@/components/layout/Header';
+import PostCard from '@/components/common/PostCard';
+import { PostProps } from '@/interfaces';
 
 const PostsPage: React.FC = () => {
   const [posts, setPosts] = useState<PostProps[]>([]);
